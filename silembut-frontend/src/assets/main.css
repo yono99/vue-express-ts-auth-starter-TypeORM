@@ -1,0 +1,25 @@
+@import './base.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.login-logo {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 64px;   /* bisa diubah sesuai kebutuhan */
+  height: 64px;
+}
+.topbar-logo {
+  display: block;
+  margin: 0 auto 0rem;
+  width: 48px; /* bisa diubah sesuai kebutuhan */
+  height: 48px;
+}
